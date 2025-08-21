@@ -1,14 +1,3 @@
-/******************************************************************************
-
-  @file         SHELL.c
-
-  @author       Anuj Bagewadi
-
-  @date         Friday,  4 September 2024
-
-  @brief        Sheldor (Sheldor The Conqueror)
-
-*******************************************************************************/
 #include <sys/wait.h>
 #include <sys/types.h>
 #include <unistd.h>
@@ -198,3 +187,4 @@ int main(int argc, char **argv){
     //Perform any shutdown/cleanup.
     return EXIT_SUCCESS;
 }
+
